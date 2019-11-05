@@ -3,7 +3,7 @@
 _Encrypts_ plain text into **Caeser Cypher** and _Decrypts_ it.
 
 
-Code at [Project Page (GitHub.com](https://github.com/Waterwolf9910/Waterwolf9910-ScienceFair2019)
+Code at [Project Page (GitHub.com)](https://github.com/Waterwolf9910/Waterwolf9910-ScienceFair2019)
 
 [Discord Here, Friend us there](https://discordapp.com)
 
