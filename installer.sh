@@ -30,6 +30,5 @@ then
     rm run.sh
     exit 0
 else
-then
     exit 1
 fi
