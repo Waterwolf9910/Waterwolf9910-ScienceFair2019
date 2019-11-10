@@ -1,7 +1,8 @@
 # Waterwolf9910-ScienceFair2019
 
 _Encrypts_ plain text into **Caeser Cypher** and _Decrypts_ it.
-
+For Window download installer.bat
+For Linux Distros download installer.sh
 
 Code at [Project Page (GitHub.com)](https://github.com/Waterwolf9910/Waterwolf9910-ScienceFair2019)
 
