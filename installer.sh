@@ -25,6 +25,8 @@ then
     rm Ceaser_Cipher_encrypt-decrypt/Waterwolf9910-ScienceFair2019/CeasarCipher.class
     rm Ceaser_Cipher_encrypt-decrypt/Waterwolf9910-ScienceFair2019/CeasarCipher.java
     rm Ceaser_Cipher_encrypt-decrypt/Waterwolf9910-ScienceFair2019/README.md
+    rm Ceaser_Cipher_encrypt-decrypt/Waterwolf9910-ScienceFair2019/installer.bat
+    rm Ceaser_Cipher_encrypt-decrypt/Waterwolf9910-ScienceFair2019/installer.sh
     rmdir Ceaser_Cipher_encrypt-decrypt/Waterwolf9910-ScienceFair2019
     rmdir Ceaser_Cipher_encrypt-decrypt
     rm run.sh
