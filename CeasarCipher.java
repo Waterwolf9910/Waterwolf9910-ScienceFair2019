@@ -51,7 +51,7 @@ public class CeasarCipher {
                 String s1 = input.next();
                 String str = new String(s1.toLowerCase());
                     //Converter
-                System.out.println(str.replaceAll("x", "a").replaceAll("y", "b").replaceAll("z", "c").replaceAll("a", "d").replaceAll("b", "e").replaceAll("c", "f").replaceAll("d", "g").replaceAll("e", "h").replaceAll("f", "i").replaceAll("g", "j").replaceAll("h", "k").replaceAll("i", "l").replaceAll("j", "m").replaceAll("k", "n").replaceAll("l", "o").replaceAll("m", "p").replaceAll("n", "q").replaceAll("o", "r").replaceAll("p", "s").replaceAll("q", "t").replaceAll("r", "u").replaceAll("v", "s").replaceAll("t", "w").replaceAll("u", "x").replaceAll("v", "y").replaceAll("w", "z"));
+                System.out.println(str.replaceAll("w", "z").replaceAll("v", "y").replaceAll("u", "x").replaceAll("t", "w").replaceAll("s", "v").replaceAll("r", "u").replaceAll("q", "t").replaceAll("p", "s").replaceAll("o", "r").replaceAll("n", "q").replaceAll("m", "p").replaceAll("l", "o").replaceAll("k", "n").replaceAll("j", "m").replaceAll("i", "l").replaceAll("h", "k").replaceAll("g", "j").replaceAll("f", "i").replaceAll("e", "h").replaceAll("d", "g").replaceAll("c", "f").replaceAll("b", "e").replaceAll("a", "d").replaceAll("z", "c").replaceAll("y", "b").replaceAll("x", "a"));
                     //End
                 System.exit(0);
             }
