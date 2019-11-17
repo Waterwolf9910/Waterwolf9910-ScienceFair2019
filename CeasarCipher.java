@@ -26,7 +26,17 @@ public class CeasarCipher {
             Scanner input = new Scanner(System.in);
 
             
-
+            //Begin of Code
+            System.out.println("Code/Program By. Waterwolf9910 and Andon1379");
+            System.out.println(" ");
+            System.out.println("Thanks to those who help make the language 'Java'");
+            System.out.println(" ");
+            Thread.sleep(5000);
+            int l = 0;
+            while (l < 20) {
+                 System.out.print("");
+                 l++;
+            }
             System.out.print("Do u want to encrypt (type 1) or Decrypt (type 2): ");
             int choise = input.nextInt();
             System.out.println("Loading");
@@ -61,7 +71,7 @@ public class CeasarCipher {
             System.exit(1);
         }
     }
-        //Replace Method Core        (Regular Expresion)
+        //Replace Method Core     (Regular Expresion)
         public String replaceAll(String regex, String replace_str) {
             return replace_str;
         }
