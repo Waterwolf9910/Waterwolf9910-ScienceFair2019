@@ -3,7 +3,7 @@ import java.lang.*;
 import java.util.*;
 import java.time.*;
 import java.util.regex.*;
-public class CeasarCipher {
+public class CaesarCipher {
      
     public static void main(String[] arg) throws InterruptedException {
         try {
