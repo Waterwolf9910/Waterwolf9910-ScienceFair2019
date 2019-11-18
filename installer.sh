@@ -5,6 +5,7 @@ echo
 echo 
 echo 
 echo Installing
+cd ~
 sleep 5s
 mkdir Caeser_Cipher_encrypt-decrypt
 cd Caeser_Cipher_encrypt-decrypt/
