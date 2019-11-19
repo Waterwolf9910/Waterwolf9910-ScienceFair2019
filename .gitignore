@@ -18,5 +18,6 @@ gradle/wrapper/gradle-wrapper.properties
 .github/*
 
 # remove extra installer
-installler.sh
+installer.sh
 installer.bat
+istaller.*
