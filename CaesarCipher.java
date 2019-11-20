@@ -8,7 +8,7 @@ public class CaesarCipher {
     public static void main(String[] arg) throws InterruptedException {
         try {
             //Time Method
-                int p = 0
+                int p = 0;
                 while (p < 10) {
                     //Time Method
                     LocalDate date = LocalDate.now();
