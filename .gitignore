@@ -20,4 +20,4 @@ gradle/wrapper/gradle-wrapper.properties
 # remove extra installer
 installer.sh
 installer.bat
-istaller.*
+installer.*
