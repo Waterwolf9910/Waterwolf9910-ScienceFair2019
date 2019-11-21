@@ -10,7 +10,7 @@ function pause() {
 }
 mv installer.sh ~
 cd ~
-sudo apt install git && sudo apt install openjdk-8-jdk openjdk-8-jre
+sudo apt install git openjdk-8-jdk openjdk-8-jre
 sleep 5s
 mkdir Caesar_Cipher_encrypt-decrypt
 cd Caesar_Cipher_encrypt-decrypt/
