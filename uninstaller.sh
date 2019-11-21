@@ -4,9 +4,11 @@ rm CaesarCipher.class
 rm CaesarCipher.java
 rm README.md
 rm installer.sh
+rm run.sh
+rm installer.bat
 rm uninstaller.sh
 cd ..
-rmdir Caeser_Cipher_encrypt-decrypt/Waterwolf9910-ScienceFair2019
+rmdir Caesar_Cipher_encrypt-decrypt/Waterwolf9910-ScienceFair2019
 cd ..
-rmdir Caeser_Cipher_encrypt-decrypt
+rmdir Caesar_Cipher_encrypt-decrypt
 exit 0
