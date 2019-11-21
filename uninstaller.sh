@@ -7,6 +7,8 @@ rm installer.sh
 rm run.sh
 rm installer.bat
 rm uninstaller.sh
+wait
+sleep 10s
 cd ..
 rmdir Caesar_Cipher_encrypt-decrypt/Waterwolf9910-ScienceFair2019
 cd ..
