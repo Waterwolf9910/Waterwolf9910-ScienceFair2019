@@ -69,7 +69,10 @@ public class CaesarCipher {
                 String str = new String(s1.toLowerCase());
                     //Converter
                 System.out.println(str.replaceAll("a", "x").replaceAll("b", "y").replaceAll("c", "z").replaceAll("d", "a").replaceAll("e", "b").replaceAll("f", "c").replaceAll("g", "d").replaceAll("h", "e").replaceAll("i", "f").replaceAll("j", "g").replaceAll("k", "h").replaceAll("l", "i").replaceAll("m", "j").replaceAll("n", "k").replaceAll("o", "l").replaceAll("p", "m").replaceAll("q", "n").replaceAll("r", "o").replaceAll("s", "p").replaceAll("t", "q").replaceAll("u", "r").replaceAll("v", "s").replaceAll("w", "t").replaceAll("x", "u").replaceAll("y", "v").replaceAll("z", "w"));
-                    //End
+                Thread.sleep(3000);
+                System.out.println("");
+                System.out.println("");
+                 //End
                 System.exit(0);
             }
             if (choise == decrypt) {
@@ -80,7 +83,10 @@ public class CaesarCipher {
                 String str = new String(s1.toLowerCase());
                     //Converter
                 System.out.println(str.replaceAll("w", "z").replaceAll("v", "y").replaceAll("u", "x").replaceAll("t", "w").replaceAll("s", "v").replaceAll("r", "u").replaceAll("q", "t").replaceAll("p", "s").replaceAll("o", "r").replaceAll("n", "q").replaceAll("m", "p").replaceAll("l", "o").replaceAll("k", "n").replaceAll("j", "m").replaceAll("i", "l").replaceAll("h", "k").replaceAll("g", "j").replaceAll("f", "i").replaceAll("e", "h").replaceAll("d", "g").replaceAll("c", "f").replaceAll("b", "e").replaceAll("a", "d").replaceAll("z", "c").replaceAll("y", "b").replaceAll("x", "a"));
-                    //End
+                Thread.sleep(3000);
+                System.out.println("");
+                System.out.println("");
+                 //End
                 System.exit(0);
             }
             if (choise == cancel) {
