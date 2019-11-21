@@ -10,7 +10,7 @@ rm uninstaller.sh
 wait
 sleep 10s
 cd ..
-rmdir Caesar_Cipher_encrypt-decrypt/Waterwolf9910-ScienceFair2019
+rmdir Caesar_Cipher_encrypt-decrypt/Waterwolf9910-ScienceFair2019/
 cd ..
 rmdir Caesar_Cipher_encrypt-decrypt
 exit 0
