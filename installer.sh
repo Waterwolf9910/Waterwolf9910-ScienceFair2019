@@ -5,6 +5,9 @@ echo
 echo 
 echo 
 echo Installing
+function pause() {
+     read -p "$*"
+}
 mv installer.sh ~
 cd ~
 sudo apt install git && sudo apt install openjdk-8-jdk openjdk-8-jre
@@ -18,4 +21,6 @@ chmod +x run.sh
 cd ..
 cd ..
 mv installer.sh Caesar_Cipher_encrypt-decrypt/Waterwolf9910-ScienceFair2019/
+echo do cd ~/Caesar_Cipher_encrypt-decrypt/Waterwolf9910-ScienceFair && sh run.sh or ./~/Caesar_Cipher_encrypt-decrypt/Waterwolf9910-ScienceFair/run.sh
+pause 'Press [enter] to end script'
 exit 0
