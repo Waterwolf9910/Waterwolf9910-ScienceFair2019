@@ -2,7 +2,7 @@
 
 _Encrypts_ plain text into **Caeser Cypher** and _Decrypts_ it.
 
-For Window download installer.bat
+For Window download and run installer.bat
 
 For Linux Distros download 'installer.sh' then run sh installer.sh or chmod +x installer.sh && ./installer.sh
 
