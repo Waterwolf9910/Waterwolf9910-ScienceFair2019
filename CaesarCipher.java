@@ -1,24 +1,30 @@
-
-import java.lang.*;
 import java.util.*;
-import java.time.*;
+import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.regex.*;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class CaesarCipher {
      
     public static void main(String[] arg) throws InterruptedException {
         try {
-            //Time Method
+             
+            //Loading code
                 int p = 0;
-                while (p < 10) {
-                    //Time Method
+                while (p < 5) {
+                    //Time Variable
                     LocalDate date = LocalDate.now();
                     LocalTime time = LocalTime.now();
+                    
+                    //Time and Date Print Out
                     System.out.println("Date: " + date);
                     System.out.println("");
                     System.out.println("Time: " + time);
                     System.out.println("");
 
-                    //Loading Methods
+                    //Loading
                     System.out.print("Loading Code ");
                     System.out.print(".");
                     Thread.sleep(1000);
@@ -27,20 +33,25 @@ public class CaesarCipher {
                     System.out.print(".");
                     Thread.sleep(1000);
                     int x = 0;
-                    while (x < 500) {
+                    while (x < 499) {
                         System.out.println(" ");
                         x++;
                     }
                     p++;
                 }
                 int n = 0;
-                while (n < 500) {
+                while (n < 499) {
                     System.out.println("");
                     n++;
                 }
             
-            //Input Method
+            //Input Variable
             Scanner input = new Scanner(System.in);
+            
+            LocalDate date = LocalDate.now();
+            //File Variable
+            File encryptedText = new File(date + "-CaesarCipher.class.log");
+            FileWriter writeFile = new FileWriter(date + "-CaesarCipher.class.log");
 
             
             //Begin of Code
@@ -68,7 +79,8 @@ public class CaesarCipher {
                 String s1 = input.next();
                 String str = new String(s1.toLowerCase());
                     //Converter
-                System.out.println(str.replaceAll("a", "x").replaceAll("b", "y").replaceAll("c", "z").replaceAll("d", "a").replaceAll("e", "b").replaceAll("f", "c").replaceAll("g", "d").replaceAll("h", "e").replaceAll("i", "f").replaceAll("j", "g").replaceAll("k", "h").replaceAll("l", "i").replaceAll("m", "j").replaceAll("n", "k").replaceAll("o", "l").replaceAll("p", "m").replaceAll("q", "n").replaceAll("r", "o").replaceAll("s", "p").replaceAll("t", "q").replaceAll("u", "r").replaceAll("v", "s").replaceAll("w", "t").replaceAll("x", "u").replaceAll("y", "v").replaceAll("z", "w"));
+                String cipherText = str.replaceAll("a", "x").replaceAll("b", "y").replaceAll("c", "z").replaceAll("d", "a").replaceAll("e", "b").replaceAll("f", "c").replaceAll("g", "d").replaceAll("h", "e").replaceAll("i", "f").replaceAll("j", "g").replaceAll("k", "h").replaceAll("l", "i").replaceAll("m", "j").replaceAll("n", "k").replaceAll("o", "l").replaceAll("p", "m").replaceAll("q", "n").replaceAll("r", "o").replaceAll("s", "p").replaceAll("t", "q").replaceAll("u", "r").replaceAll("v", "s").replaceAll("w", "t").replaceAll("x", "u").replaceAll("y", "v").replaceAll("z", "w");
+                System.out.println(cipherText);
                 Thread.sleep(3000);
                 System.out.println("");
                 System.out.println("");
