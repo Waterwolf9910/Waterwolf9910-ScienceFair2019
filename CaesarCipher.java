@@ -48,12 +48,6 @@ public class CaesarCipher {
             //Input Variable
             Scanner input = new Scanner(System.in);
             
-            LocalDate date = LocalDate.now();
-            //File Variable
-            File encryptedText = new File(date + "-CaesarCipher.class.log");
-            FileWriter writeFile = new FileWriter(date + "-CaesarCipher.class.log");
-
-            
             //Begin of Code
             System.out.println("Code/Program By. Waterwolf9910 and Andon1379");
             System.out.println(" ");
@@ -80,7 +74,21 @@ public class CaesarCipher {
                 String str = new String(s1.toLowerCase());
                     //Converter
                 String cipherText = str.replaceAll("a", "x").replaceAll("b", "y").replaceAll("c", "z").replaceAll("d", "a").replaceAll("e", "b").replaceAll("f", "c").replaceAll("g", "d").replaceAll("h", "e").replaceAll("i", "f").replaceAll("j", "g").replaceAll("k", "h").replaceAll("l", "i").replaceAll("m", "j").replaceAll("n", "k").replaceAll("o", "l").replaceAll("p", "m").replaceAll("q", "n").replaceAll("r", "o").replaceAll("s", "p").replaceAll("t", "q").replaceAll("u", "r").replaceAll("v", "s").replaceAll("w", "t").replaceAll("x", "u").replaceAll("y", "v").replaceAll("z", "w");
-                System.out.println(cipherText);
+                LocalDate date = LocalDate.now();
+                 //File Variable
+                File encryptedText = new File(date + "Encrypted-CaesarCipher.class.log");
+                FileWriter writeFile = new FileWriter(date + "Encrypted-CaesarCipher.class.log");
+                if (encryptedText.exists()) {
+                     try {
+                         writeFile.write("n%" + cipherText);
+                         writeFile.close();
+                     }
+                     catch (IOException e) {
+                          System.out.println("An Unexpected Error occured while writing to '" + encryptedText.getName() + "'. Make Sure Permissions are allowed. Permission needed: Write and Read"); 
+                          System.exit(0);
+                     }
+                }
+                System.out.println("Text in file " + encryptedText.getName());
                 Thread.sleep(3000);
                 System.out.println("");
                 System.out.println("");
@@ -94,7 +102,7 @@ public class CaesarCipher {
                 String s1 = input.next();
                 String str = new String(s1.toLowerCase());
                     //Converter
-                System.out.println(str.replaceAll("w", "z").replaceAll("v", "y").replaceAll("u", "x").replaceAll("t", "w").replaceAll("s", "v").replaceAll("r", "u").replaceAll("q", "t").replaceAll("p", "s").replaceAll("o", "r").replaceAll("n", "q").replaceAll("m", "p").replaceAll("l", "o").replaceAll("k", "n").replaceAll("j", "m").replaceAll("i", "l").replaceAll("h", "k").replaceAll("g", "j").replaceAll("f", "i").replaceAll("e", "h").replaceAll("d", "g").replaceAll("c", "f").replaceAll("b", "e").replaceAll("a", "d").replaceAll("z", "c").replaceAll("y", "b").replaceAll("x", "a"));
+                String plainText = (str.replaceAll("w", "z").replaceAll("v", "y").replaceAll("u", "x").replaceAll("t", "w").replaceAll("s", "v").replaceAll("r", "u").replaceAll("q", "t").replaceAll("p", "s").replaceAll("o", "r").replaceAll("n", "q").replaceAll("m", "p").replaceAll("l", "o").replaceAll("k", "n").replaceAll("j", "m").replaceAll("i", "l").replaceAll("h", "k").replaceAll("g", "j").replaceAll("f", "i").replaceAll("e", "h").replaceAll("d", "g").replaceAll("c", "f").replaceAll("b", "e").replaceAll("a", "d").replaceAll("z", "c").replaceAll("y", "b").replaceAll("x", "a"));
                 Thread.sleep(3000);
                 System.out.println("");
                 System.out.println("");
@@ -110,9 +118,4 @@ public class CaesarCipher {
             System.exit(1);
         }
     }
-        //Replace Method Core     (Regular Expresion)
-        public String replaceAll(String regex, String replace_str) {
-            return replace_str;
-        }
-
 }
