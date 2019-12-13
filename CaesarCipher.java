@@ -76,17 +76,19 @@ public class CaesarCipher {
                 String cipherText = str.replaceAll("a", "x").replaceAll("b", "y").replaceAll("c", "z").replaceAll("d", "a").replaceAll("e", "b").replaceAll("f", "c").replaceAll("g", "d").replaceAll("h", "e").replaceAll("i", "f").replaceAll("j", "g").replaceAll("k", "h").replaceAll("l", "i").replaceAll("m", "j").replaceAll("n", "k").replaceAll("o", "l").replaceAll("p", "m").replaceAll("q", "n").replaceAll("r", "o").replaceAll("s", "p").replaceAll("t", "q").replaceAll("u", "r").replaceAll("v", "s").replaceAll("w", "t").replaceAll("x", "u").replaceAll("y", "v").replaceAll("z", "w");
                 LocalDate date = LocalDate.now();
                  //File Variable
-                File encryptedText = new File(date + "Encrypted-CaesarCipher.class.log");
-                FileWriter writeFile = new FileWriter(date + "Encrypted-CaesarCipher.class.log");
+                File encryptedText = new File(date + "-Encrypted-CaesarCipher.class.log");
+                FileWriter writeFile = new FileWriter(date + "-Encrypted-CaesarCipher.class.log");
                 if (encryptedText.exists()) {
                      try {
-                         writeFile.write("n%" + cipherText);
+                         writeFile.write("%n" + cipherText);
                          writeFile.close();
                      }
                      catch (IOException e) {
                           System.out.println("An Unexpected Error occured while writing to '" + encryptedText.getName() + "'. Make Sure Permissions are allowed. Permission needed: Write and Read"); 
                           System.exit(0);
                      }
+                } else {
+                    
                 }
                 System.out.println("Text in file " + encryptedText.getName());
                 Thread.sleep(3000);
