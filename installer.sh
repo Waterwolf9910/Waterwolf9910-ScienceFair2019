@@ -18,9 +18,8 @@ git clone https://github.com/Waterwolf9910/Waterwolf9910-ScienceFair2019/
 cd Waterwolf9910-ScienceFair2019
 javac CaesarCipher.java
 chmod +x run.sh
-cd ..
-cd ..
+cd ~
 mv installer.sh Caesar_Cipher_encrypt-decrypt/Waterwolf9910-ScienceFair2019/
-echo do cd ~/Caesar_Cipher_encrypt-decrypt/Waterwolf9910-ScienceFair && sh run.sh or ./~/Caesar_Cipher_encrypt-decrypt/Waterwolf9910-ScienceFair/run.sh
+echo run run.sh
 pause 'Press [enter] to end script'
 exit 0
