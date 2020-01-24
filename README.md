@@ -10,7 +10,7 @@ Code at [Project Page (GitHub.com)](https://github.com/Waterwolf9910/Waterwolf99
 
 [Discord Here, Friend us there](https://discordapp.com)
 
-[Website](https://waterwolf9910-litemodpack-1-12-2.glitch.me/)
+[Website](https://waterwolfies.glitch.me/)
 
 #
 #
