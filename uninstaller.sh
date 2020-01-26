@@ -11,5 +11,5 @@ rm .gitignore
 wait
 sleep 10s
 cd ..
-rm -r Caesar_Cipher_encrypt-decrypt
+rm -r Caesar_Cipher
 exit 0
