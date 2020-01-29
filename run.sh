@@ -1,5 +1,5 @@
 echo Running
 echo 
 echo 
-cd ~/Caesar_Cipher/Waterwolf9910-ScienceFair2019/
+cd ~/Caesar_Cipher
 java CaesarCipher
