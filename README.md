@@ -2,9 +2,9 @@
 
 _Encrypts_ plain text into **Caeser Cypher** and _Decrypts_ it.
 
-For Window download installer.bat
+For Window download installer.bat [here](https://waterwolfies.glitch.me/CaesarCipherInstallList.html)  and run it in command prompt or open installer in a file manager
 
-For Linux Distros download 'installer.sh' then run sh installer.sh or chmod +x installer.sh && ./installer.sh
+For Linux Distros download installer.sh [here](https://waterwolfies.glitch.me/CaesarCipherInstallList.html) then run chmod +x installer.sh && ./installer.sh or open installer in a file manager
 
 Code at [Project Page (GitHub.com)](https://github.com/Waterwolf9910/Waterwolf9910-ScienceFair2019)
 
