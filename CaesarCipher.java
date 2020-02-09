@@ -12,7 +12,7 @@ public class CaesarCipher {
              
             //Loading code
                 int p = 0;
-                while (p < 5) {
+                while (p < 3) {
                     //Time Variable
                     LocalDate date = LocalDate.now();
                     LocalTime time = LocalTime.now();
@@ -32,7 +32,7 @@ public class CaesarCipher {
                     System.out.print(".");
                     Thread.sleep(1000);
                     int x = 0;
-                    while (x < 499) {
+                    while (x < 249) {
                         System.out.println(" ");
                         x++;
                     }
